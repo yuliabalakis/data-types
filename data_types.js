@@ -1,38 +1,47 @@
 let a = "5";
 let b = true;
-console.log(+a + +b);
+let sum = +a + +b;
+console.log(sum);
 
 let c = "4";
 let f = 5;
-console.log(+c + +f);
+let sum1 = +c + +f;
+console.log(sum1);
 
 let d = 3;
 let e = false;
-console.log(+d + +e);
+let sum2 = +d + +e
+console.log(sum2);
 
 let aa = "5";
 let bb = true;
-console.log(aa*bb);
+let multiplication = aa * bb;
+console.log(multiplication);
 
 let cc = "4";
 let ff = 5;
-console.log(cc*ff);
+let multiplication1 = cc * ff;
+console.log(multiplication1);
 
 let dd = 3;
 let ee = false;
-console.log(dd*ee);
+let multiplication2 = dd * ee;
+console.log(multiplication2);
 
 let aaa = "5";
 let bbb = true;
-console.log(aaa/bbb);
+let division = aaa / bbb;
+console.log(division);
 
 let ccc = "10";
 let fff= 5;
-console.log(ccc/fff);
+let division1 = ccc / fff;
+console.log(division1);
 
 let ddd = 3;
 let eee = true;
-console.log(ddd/eee);
+let division2 = ddd / eee;
+console.log(division2);
 
 let value = Number("hello");
 console.log('hello =', typeof value);
