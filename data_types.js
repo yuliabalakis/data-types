@@ -1,3 +1,4 @@
+/* 1. Perform addition of various types (string + boolean, string + number, number + boolean) */
 let a = "5";
 let b = true;
 let sum = +a + +b;
@@ -13,6 +14,7 @@ let e = false;
 let sum2 = +d + +e
 console.log(sum2);
 
+/* 2. Perform multiplication of various types (string * boolean, string * number, number * boolean) */
 let aa = "5";
 let bb = true;
 let multiplication = aa * bb;
@@ -28,6 +30,7 @@ let ee = false;
 let multiplication2 = dd * ee;
 console.log(multiplication2);
 
+/* 3. Divide different types (string / boolean, string / number, number / Boolean) */
 let aaa = "5";
 let bbb = true;
 let division = aaa / bbb;
@@ -43,6 +46,7 @@ let eee = true;
 let division2 = ddd / eee;
 console.log(division2);
 
+/* 4. Perform explicit conversion (number, string, boolean) */
 let value = Number("hello");
 console.log('hello =', typeof value);
 
