@@ -1,50 +1,50 @@
 /* 1. Perform addition of various types (string + boolean, string + number, number + boolean) */
-let a = "5";
-let b = true;
-let sum = +a + +b;
+let x = "5";
+let y = true;
+let sum = x + y;
 console.log(sum);
 
-let c = "4";
-let f = 5;
-let sum1 = +c + +f;
-console.log(sum1);
+let x = "4";
+let y = 5;
+let sum = x + y;
+console.log(sum);
 
-let d = 3;
-let e = false;
-let sum2 = +d + +e
-console.log(sum2);
+let x = 3;
+let y = false;
+let sum = x + y;
+console.log(sum);
 
 /* 2. Perform multiplication of various types (string * boolean, string * number, number * boolean) */
-let aa = "5";
-let bb = true;
-let multiplication = aa * bb;
+let x = "5";
+let y = true;
+let multiplication = x * y;
 console.log(multiplication);
 
-let cc = "4";
-let ff = 5;
-let multiplication1 = cc * ff;
-console.log(multiplication1);
+let x = "4";
+let y = 5;
+let multiplication = x * y;
+console.log(multiplication);
 
-let dd = 3;
-let ee = false;
-let multiplication2 = dd * ee;
-console.log(multiplication2);
+let x = 3;
+let y = false;
+let multiplication = x * y;
+console.log(multiplication);
 
 /* 3. Divide different types (string / boolean, string / number, number / Boolean) */
-let aaa = "5";
-let bbb = true;
-let division = aaa / bbb;
+let x = "5";
+let y = true;
+let division = x / y;
 console.log(division);
 
-let ccc = "10";
-let fff= 5;
-let division1 = ccc / fff;
-console.log(division1);
+let x = "10";
+let y= 5;
+let division = x / y;
+console.log(division);
 
-let ddd = 3;
-let eee = true;
-let division2 = ddd / eee;
-console.log(division2);
+let x = 3;
+let y = true;
+let division = x / y;
+console.log(division);
 
 /* 4. Perform explicit conversion (number, string, boolean) */
 let value = Number("hello");
